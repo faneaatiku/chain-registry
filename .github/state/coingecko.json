@@ -437,6 +437,10 @@
         {
           "chain_name": "atomone",
           "base_denom": "uphoton"
+        },
+        {
+          "chain_name": "beezee",
+          "base_denom": "ibc/82931180F0962712BFABB189083A94C77EA90E269ABFC6D310AF922B2B14E011"
         }
       ],
       "origin_asset": {
@@ -567,7 +571,7 @@
     },
     {
       "coingecko_id": "axelar-usdt",
-      "name": "Bridged Tether (Axelar)",
+      "name": "Axelar Bridged USDT",
       "symbol": "AXLUSDT",
       "assets": [
         {
@@ -4407,6 +4411,21 @@
       "origin_asset": {
         "chain_name": "self",
         "base_denom": "uslf"
+      }
+    },
+    {
+      "coingecko_id": "sto-chain",
+      "name": "STO Chain",
+      "symbol": "STOC",
+      "assets": [
+        {
+          "chain_name": "stoc",
+          "base_denom": "ustoc"
+        }
+      ],
+      "origin_asset": {
+        "chain_name": "stoc",
+        "base_denom": "ustoc"
       }
     },
     {
